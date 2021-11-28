@@ -1,0 +1,37 @@
+
+h1{
+    font-family: "Rubik";
+    font-weight: 700;
+}
+.main-menu {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+.main-menu-navigation {
+    display: flex;
+    gap: 1rem;
+}
+.main-menu-navigation a {
+    transition: .3s;
+    font-family: "Maven Pro";
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: .5rem;
+    border-radius: 10px;
+    
+}
+.main-menu-navigation a.active {
+    transition: .3s;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: .5rem;
+    border-radius: 10px;
+    
+}
+.main-menu-navigation a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+header{
+    padding-bottom: .8rem;
+    border-bottom: .2rem dashed tomato;
+}
